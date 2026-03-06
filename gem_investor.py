@@ -11,7 +11,6 @@ SOURCE_MAP = {
     "黃金": "https://www.macromicro.me/collections/8866/Market_344136/141796/Gold-Silver",
     "糧食": "https://www.macromicro.me/collections/54/agri-wheat/48065/fao-food-price-index",
     "法說會": "https://mops.twse.com.tw/mops/web/t100sb02_1",
-    "2330": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 台積電
     "2317": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 鴻海
     "6669": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 緯穎
     "法說會": "https://mops.twse.com.tw/mops/#/web/t100sb07_1",
