@@ -4,14 +4,15 @@ from bs4 import BeautifulSoup
 
 # 1. 定義「根源網址」對應表 (根據你的 Markdown 邏輯)
 SOURCE_MAP = {
-    "原油": "https://www.macromicro.me/collections/13/energy-oil",
-    "庫存": "https://www.eia.gov/petroleum/supply/weekly/",
-    "通膨": "https://www.macromicro.me/collections/4/global-inflation",
-    "黃金": "https://www.macromicro.me/collections/24/precious-metal-gold",
-    "糧食": "https://www.macromicro.me/collections/36/agriculture-corn-soybean-wheat",
-    "法說會": "https://mops.twse.com.tw/mops/web/t100sb02_1",
-    "2330": "https://mops.twse.com.tw/mops/web/t100sb02_1",
-    "銅": "https://www.macromicro.me/collections/35/industrial-metal-copper-iron-aluminum"
+    "原油": "https://www.macromicro.me/collections/19/mm-oil-price/182/mm-oil-expectation-index",
+    "台灣出口": "https://www.macromicro.me/collections/13/tw-trade-relative/118/tw-exports-yoy",
+    "油庫存": "https://www.eia.gov/petroleum/supply/weekly/",
+    "通膨": "https://www.macromicro.me/collections/5/us-price-relative/10/cpi",
+    "黃金": "https://www.macromicro.me/collections/8866/Market_344136/141796/Gold-Silver",
+    "糧食": "https://www.macromicro.me/collections/54/agri-wheat/48065/fao-food-price-index",
+    "法說會": "https://mops.twse.com.tw/mops/#/web/t100sb07_1",
+    "2330": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb07_1?parameters=0eb65210d5bdc34ea16e295ccdbad1099abb362c3fc938a027aff9085fb47dba87c33f7cb1f439f0aa513445e70aaaa6f71abe605c3d23d1030108b7cc585da0d6f2b2795dd11812a141746f54089f075d68a73f1504246f412daf016f5a2118",
+    "銅": "https://www.macromicro.me/collections/8866/Market_344136/81574/NYMEX-Copper-Future-COT-Index"
 }
 def get_relevant_links(query):
     """根據輸入主題，找出對應的根源連結"""
