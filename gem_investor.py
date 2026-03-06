@@ -10,8 +10,11 @@ SOURCE_MAP = {
     "通膨": "https://www.macromicro.me/collections/5/us-price-relative/10/cpi",
     "黃金": "https://www.macromicro.me/collections/8866/Market_344136/141796/Gold-Silver",
     "糧食": "https://www.macromicro.me/collections/54/agri-wheat/48065/fao-food-price-index",
+    "法說會": "https://mops.twse.com.tw/mops/web/t100sb02_1",
+    "2330": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 台積電
+    "2317": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 鴻海
+    "6669": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 緯穎
     "法說會": "https://mops.twse.com.tw/mops/#/web/t100sb07_1",
-    "2330": "https://mopsov.twse.com.tw/mops/web/ajax_t100sb07_1?parameters=0eb65210d5bdc34ea16e295ccdbad1099abb362c3fc938a027aff9085fb47dba87c33f7cb1f439f0aa513445e70aaaa6f71abe605c3d23d1030108b7cc585da0d6f2b2795dd11812a141746f54089f075d68a73f1504246f412daf016f5a2118",
     "銅": "https://www.macromicro.me/collections/8866/Market_344136/81574/NYMEX-Copper-Future-COT-Index"
 }
 def get_relevant_links(query):
