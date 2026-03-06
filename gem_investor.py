@@ -6,14 +6,13 @@ from bs4 import BeautifulSoup
 SOURCE_MAP = {
     "原油": "https://www.macromicro.me/collections/13/energy-oil",
     "庫存": "https://www.eia.gov/petroleum/supply/weekly/",
-    "通膨": "https://www.macromicro.me/charts/46/us-5-year-breakeven-inflation-rate",
+    "通膨": "https://www.macromicro.me/collections/4/global-inflation",
     "黃金": "https://www.macromicro.me/collections/24/precious-metal-gold",
     "糧食": "https://www.macromicro.me/collections/36/agriculture-corn-soybean-wheat",
     "法說會": "https://mops.twse.com.tw/mops/web/t100sb02_1",
     "2330": "https://mops.twse.com.tw/mops/web/t100sb02_1",
     "銅": "https://www.macromicro.me/collections/35/industrial-metal-copper-iron-aluminum"
 }
-
 def get_relevant_links(query):
     """根據輸入主題，找出對應的根源連結"""
     links = []
