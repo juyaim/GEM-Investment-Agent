@@ -14,8 +14,9 @@ SOURCE_MAP = {
     "2317": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 鴻海
     "6669": "https://mops.twse.com.tw/mops/#/web/t100sb07_1", # 緯穎
     "法說會": "https://mops.twse.com.tw/mops/#/web/t100sb07_1",
-    "銅": "https://www.macromicro.me/collections/8866/Market_344136/81574/NYMEX-Copper-Future-COT-Index"
-}
+    "銅": "https://www.macromicro.me/collections/8866/Market_344136/81574/NYMEX-Copper-Future-COT-Index",
+    "恐懼貪婪比": "https://www.macromicro.me/charts/50108/cnn-fear-and-greed"
+   }
 def get_relevant_links(query):
     """根據輸入主題，找出對應的根源連結"""
     links = []
